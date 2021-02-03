@@ -1,0 +1,18 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style-type:none;
+}
+nav{
+    width: 60%;
+    justify-content: center;
+}
+
+/* INDEX */
+
+/* RECIPES */
+
+/* SINGLE PAGE */
