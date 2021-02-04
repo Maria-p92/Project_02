@@ -56,6 +56,21 @@ a.navbar-brand img{
     color: #e87658;
 }
 /* INDEX */
+div.homecardThumb{
+    width: 18rem;
+}
+div.homecardThumb img{
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+div.homecardThumb a.btn-primary{
+    color: #212529;
+    background-color: white;
+    border-color: #212529;
+}
+
+
 
 /* RECIPES */
 
