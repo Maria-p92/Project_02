@@ -70,9 +70,46 @@ div.homecardThumb a.btn-primary {
   border-color: #212529;
 }
 
+
 /* RECIPES */
 
 /* SINGLE PAGE */
+
+.container {
+}
+
+.row{
+    text-align: center;
+    justify-content: center;
+}
+
+.image {
+    background-image: url("./img/american_pancakes.jpg");
+    background-position: center;
+    min-height: 23rem;
+    background-repeat: no-repeat;
+}
+
+.mealtitle{
+    color: white;
+    justify-content: center !important;    
+    padding-top: 20rem;   
+    font-style: italic;
+    text-shadow: 5px 5px 10px #e87658, 1px 1px 5px black
+}
+
+.icons{
+   justify-content: center;
+    font-size: 1.2rem; 
+    color: white; 
+    text-shadow: 5px 5px 10px #e87658}
+}
+
+.top {
+    padding-top: 2rem;
+}
+
+
 
 /* Grid Recipes */
 
@@ -156,3 +193,4 @@ div.homecardThumb a.btn-primary {
   display: flex;
   justify-content: center;
 }
+
