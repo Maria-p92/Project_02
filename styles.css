@@ -1,5 +1,5 @@
 body{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif !important;
     margin: 0;
 }
 section{
@@ -17,6 +17,7 @@ header{
 }
 header.row{
     margin:0;
+    height: 8rem;
 }
 header.row nav{
     justify-content: space-around;
@@ -33,7 +34,15 @@ header.row a:hover{
 ul{
     list-style-type:none;
 }
-
+ul.dropdown-menu{
+    margin:0;
+}
+ul.dropdown-menu a{
+    padding: 0.5rem;
+}
+.dropdown-item:active {
+    background-color: white;
+}
 section#section_food{
     height: 5rem;
     display: flex;
@@ -50,10 +59,26 @@ a.navbar-brand img{
 }
 #section_food a{
     color: #343a40;
+    font-weight: 500;
     text-decoration: none;
 }
 #section_food a:hover{
     color: #e87658;
+}
+footer{
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-top: #212529 2px;
+}
+footer img{
+    width: 12rem;
+    padding: 1rem;
+}
+footer.container{
+    width: 100%;
+    background-color: #f8f9fa;
 }
 /* INDEX */
 div.homecardThumb{
@@ -68,6 +93,23 @@ div.homecardThumb a.btn-primary{
     color: #212529;
     background-color: white;
     border-color: #212529;
+}
+
+nav li.dropdown:hover .dropdown-menu{
+    display: block;
+    border:none;
+}
+
+div.text-white h1{
+    font-size: 6rem;
+    font-weight: 600;
+}
+div.text-white a{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+div.text-white{
+    margin-top:20rem;
 }
 
 
