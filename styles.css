@@ -1,77 +1,158 @@
-body{
-    font-family: 'Source Sans Pro', sans-serif;
-    margin: 0;
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
 }
-section{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    margin: 0;
+section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin: 0;
 }
-header{
-    margin: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+header {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-header.row{
-    margin:0;
+header.row {
+  margin: 0;
 }
-header.row nav{
-    justify-content: space-around;
+header.row nav {
+  justify-content: space-around;
 }
-header.row a{
-    color: #212529;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.2rem;
+header.row a {
+  color: #212529;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
-header.row a:hover{
-    color: #bc2626;
+header.row a:hover {
+  color: #bc2626;
 }
-ul{
-    list-style-type:none;
+ul {
+  list-style-type: none;
 }
 
-section#section_food{
-    height: 5rem;
-    display: flex;
-    justify-content: center;
+section#section_food {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
 }
-#section_food nav{
-    width: 60%;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
-    font-size: 1.2rem;
+#section_food nav {
+  width: 60%;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
-a.navbar-brand img{
-    width: 15rem;
+a.navbar-brand img {
+  width: 15rem;
 }
-#section_food a{
-    color: #343a40;
-    text-decoration: none;
+#section_food a {
+  color: #343a40;
+  text-decoration: none;
 }
-#section_food a:hover{
-    color: #e87658;
+#section_food a:hover {
+  color: #e87658;
 }
 /* INDEX */
-div.homecardThumb{
-    width: 18rem;
+div.homecardThumb {
+  width: 18rem;
 }
-div.homecardThumb img{
-    padding-top: 1rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
+div.homecardThumb img {
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
-div.homecardThumb a.btn-primary{
-    color: #212529;
-    background-color: white;
-    border-color: #212529;
+div.homecardThumb a.btn-primary {
+  color: #212529;
+  background-color: white;
+  border-color: #212529;
 }
-
-
 
 /* RECIPES */
 
 /* SINGLE PAGE */
+
+/* Grid Recipes */
+
+.carouselTop {
+  height: 10px;
+}
+
+.gridRow .col-12 {
+  justify-content: center;
+  display: grid;
+}
+
+.gridRow .col-4 {
+  justify-content: center;
+  display: grid;
+}
+
+.gridRow .col-4:hover {
+}
+
+.gridRow {
+}
+
+.gridCol {
+}
+
+.gridCard {
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.gridCard:hover .homecardThumb {
+  opacity: 0.7;
+}
+
+.gridCol:hover a {
+  color: #bc2626;
+}
+
+.item:hover a {
+  color: #bc2626;
+}
+
+.gridCard:hover .middle {
+  opacity: 1;
+}
+
+.mText {
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
+}
+
+.gridRow a,
+.item a {
+  color: black;
+}
+
+/* Karousel */
+
+.carousel {
+  margin: 50px auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+}
