@@ -75,9 +75,6 @@ div.homecardThumb a.btn-primary {
 
 /* SINGLE PAGE */
 
-.container {
-}
-
 .row{
     text-align: center;
     justify-content: center;
@@ -94,7 +91,6 @@ div.homecardThumb a.btn-primary {
     color: white;
     justify-content: center !important;    
     padding-top: 20rem;   
-    font-style: italic;
     text-shadow: 5px 5px 10px #e87658, 1px 1px 5px black
 }
 
@@ -104,12 +100,9 @@ div.homecardThumb a.btn-primary {
     color: white; 
     text-shadow: 5px 5px 10px #e87658}
 }
-
-.top {
-    padding-top: 2rem;
-}
-
-
+ .top {
+   padding-top: 20rem;
+ }
 
 /* Grid Recipes */
 
