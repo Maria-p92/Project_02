@@ -92,7 +92,11 @@ div.homecardThumb a.btn-primary {
     color: white;
     justify-content: center !important;    
     padding-top: 20rem;   
+<<<<<<< HEAD
+    text-shadow: 5px 5px 10px #e87658, 1px 1px 5px black
+=======
     text-shadow: 5px 5px 10px #e87658, 1px 1px 3px black
+>>>>>>> cb1ccf622cdefe8e06ee395e2be6a7881d3c1d8a
 }
 
 
@@ -100,6 +104,16 @@ div.homecardThumb a.btn-primary {
    justify-content: center;
     font-size: 1.4rem; 
     color: white; 
+<<<<<<< HEAD
+    text-shadow: 5px 5px 10px #e87658, 1px 1px 5px black
+}
+
+.irgredients{ 
+  text:left;
+}
+.top {
+    padding-top: 2rem;
+=======
     text-shadow: 5px 5px 10px #e87658, 1px 1px 3px black}
 }
 .star i:hover {
@@ -111,6 +125,7 @@ div.homecardThumb a.btn-primary {
 }
 .preparation {
   text-align: left;
+>>>>>>> cb1ccf622cdefe8e06ee395e2be6a7881d3c1d8a
 }
 
 .top {
