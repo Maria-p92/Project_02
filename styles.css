@@ -75,15 +75,13 @@ div.homecardThumb a.btn-primary {
 
 /* SINGLE PAGE */
 
-.container {
-}
-
 .row{
     text-align: center;
     justify-content: center;
 }
 
-.image {
+
+.image{
     background-image: url("./img/american_pancakes.jpg");
     background-position: center;
     min-height: 23rem;
@@ -94,13 +92,19 @@ div.homecardThumb a.btn-primary {
     color: white;
     justify-content: center !important;    
     padding-top: 20rem;   
+<<<<<<< HEAD
     text-shadow: 5px 5px 10px #e87658, 1px 1px 5px black
+=======
+    text-shadow: 5px 5px 10px #e87658, 1px 1px 3px black
+>>>>>>> cb1ccf622cdefe8e06ee395e2be6a7881d3c1d8a
 }
+
 
 .icons{
    justify-content: center;
-    font-size: 1.2rem; 
+    font-size: 1.4rem; 
     color: white; 
+<<<<<<< HEAD
     text-shadow: 5px 5px 10px #e87658, 1px 1px 5px black
 }
 
@@ -109,8 +113,24 @@ div.homecardThumb a.btn-primary {
 }
 .top {
     padding-top: 2rem;
+=======
+    text-shadow: 5px 5px 10px #e87658, 1px 1px 3px black}
+}
+.star i:hover {
+  color:#e87658;
 }
 
+.ingredients {
+  text-align: left;
+}
+.preparation {
+  text-align: left;
+>>>>>>> cb1ccf622cdefe8e06ee395e2be6a7881d3c1d8a
+}
+
+.top {
+   padding-top: 2rem;
+ }
 
 
 /* Grid Recipes */
